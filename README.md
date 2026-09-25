@@ -9,6 +9,8 @@
 #### Comment String
 `-C "embedded-hardware-key"`
 #### Application
+> customize the application string. Prevents conflicting with other services on your hardware token.
+> 
 `-O application=ssh:github`
 
 ## Setting up on a new machine
