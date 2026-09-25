@@ -13,7 +13,12 @@
 > 
 `-O application=ssh:github`
 
+#### Where to put for your private Id file
+`-f ~/.ssh/id_ed25519-sk_github`
+
+
 ## Setting up on a new machine
 > To Use Embedded Key on a New Machine
 > Pull the reference handle off the hardware
 `ssh-keygen -K`
+
