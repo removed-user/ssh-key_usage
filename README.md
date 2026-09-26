@@ -17,8 +17,12 @@
 `-f ~/.ssh/id_ed25519-sk_github`
 
 
+
+
 ## Setting up on a new machine
 > To Use Embedded Key on a New Machine
 > Pull the reference handle off the hardware
-`ssh-keygen -K`
 
+#### Read a private key and prknt pubkey to stdout
+> for Embedded keys it only prints the stub
+`-y` 
