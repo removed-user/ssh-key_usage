@@ -1,3 +1,4 @@
 [submodule "known_hosts"]
+path = known_hosts
 url = https://github.com/removed-user/known_hosts_ssh/
 branch = main
