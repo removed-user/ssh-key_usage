@@ -12,13 +12,10 @@
 > customize the application string. Prevents conflicting with other services on your hardware token.
 > 
 `-O application=ssh:github`
-
+`-O application=ssh:gitlab`
 #### Where to put for your private Id file
 `-f ~/.ssh/id_ed25519-sk_github`
-
-
-
-
+`-f ~/.ssh/id_ed25519-sk_gitlab`
 ## Setting up on a new machine
 > To Use Embedded Key on a New Machine
 > Pull the reference handle off the hardware
